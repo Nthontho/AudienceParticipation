@@ -14,7 +14,10 @@ public class OneWord {
     private String Question;
     private int Positive;
     private int Negative;
+<<<<<<< HEAD
     private int BallotId;
+=======
+>>>>>>> f9cf14ce99e78fff5b6f8f8fc21a119dbfe4b681
 
     /**
      * @return the OneWordId
@@ -71,6 +74,7 @@ public class OneWord {
     public void setNegative(int Negative) {
         this.Negative = Negative;
     }
+<<<<<<< HEAD
     
      public int getBallotId() {
         return BallotId;
@@ -82,4 +86,6 @@ public class OneWord {
     public void setBallotId(int ballotid) {
         this.BallotId = ballotid;
     }
+=======
+>>>>>>> f9cf14ce99e78fff5b6f8f8fc21a119dbfe4b681
 }

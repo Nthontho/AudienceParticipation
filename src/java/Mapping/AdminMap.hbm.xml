@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
+<<<<<<< HEAD
   <class name="Pojo.Admin" table="admin">
       <id column="AdminId" name="AdminId" type="int">
       <generator class="native"> 
@@ -28,3 +29,8 @@
   </class>
 </hibernate-mapping>
 
+=======
+  <class name="Pojo.Admin" table="admin"/>
+  
+</hibernate-mapping>
+>>>>>>> f9cf14ce99e78fff5b6f8f8fc21a119dbfe4b681

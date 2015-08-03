@@ -13,12 +13,20 @@ public class Admin {
     private int AdminId;
     private String AdminName;
     private String AdminSurname;
+<<<<<<< HEAD
     private String Username;
     private String Password;
     private String ConfirmPassword;
 
     /**
      * @return the AdminId 
+=======
+    private String Type;
+    private String Password;
+
+    /**
+     * @return the AdminId
+>>>>>>> f9cf14ce99e78fff5b6f8f8fc21a119dbfe4b681
      */
     public int getAdminId() {
         return AdminId;
@@ -59,6 +67,26 @@ public class Admin {
         this.AdminSurname = AdminSurname;
     }
 
+<<<<<<< HEAD
+=======
+    /**
+     * @return the Type
+     */
+    public String getType() {
+        return Type;
+    }
+
+    /**
+     * @param Type the Type to set
+     */
+    public void setType(String Type) {
+        this.Type = Type;
+    }
+
+    /**
+     * @return the Password
+     */
+>>>>>>> f9cf14ce99e78fff5b6f8f8fc21a119dbfe4b681
     public String getPassword() {
         return Password;
     }
@@ -69,6 +97,7 @@ public class Admin {
     public void setPassword(String Password) {
         this.Password = Password;
     }
+<<<<<<< HEAD
     
     
     public String getConfirmPassword() {
@@ -85,4 +114,6 @@ public class Admin {
        public void setUsername(String username) {
         this.Username = username;
     }
+=======
+>>>>>>> f9cf14ce99e78fff5b6f8f8fc21a119dbfe4b681
 }

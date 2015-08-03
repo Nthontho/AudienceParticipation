@@ -11,14 +11,14 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Register - To System</title>
          <meta name="keywords" content="" />
-         <meta name="description" content="" />
+         <meta name="description" content="" /> 
          <meta name="viewport" content="width=device-width">        
          <link rel="stylesheet" href="styles/css/templatemo_main.css">
     </head>
 
     
     <body>
-   <div id="main-wrapper">
+   <div id="main-wrapper"> 
     <div class="navbar navbar-inverse" role="navigation">
       <div class="navbar-header">
         <div class="logo"><h1>E-Participation -Admin Registration</h1></div>

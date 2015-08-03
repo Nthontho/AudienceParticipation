@@ -12,9 +12,18 @@
         <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
         <load-on-startup>2</load-on-startup>
     </servlet>
+         <servlet>
+        <servlet-name>AddAdminServlet</servlet-name>
+        <servlet-class>Servlet.AddAdminServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>dispatcher</servlet-name>
         <url-pattern>*.htm</url-pattern>
+    </servlet-mapping>
+  
+    <servlet-mapping>
+        <servlet-name>AddAdminServlet</servlet-name>
+        <url-pattern>/AddAdminServlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
